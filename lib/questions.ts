@@ -73,8 +73,8 @@ export const questions: Question[] = [
       },
       { label: "C", text: "That the field chosen is a rich text field with 255 characters or more" },
     ],
-    correctAnswer: "A",
-    tip: "O recurso de 'Field Generation' e os templates de prompt associados a ele exigem que a organização esteja utilizando uma versão de API recente (neste caso, v59 ou superior) para suportar as funcionalidades de IA generativa integradas.",
+    correctAnswer: "B",
+    tip: "O recurso de 'Field Generation' exige que o layout da página Lightning tenha sido atualizado para 'Dynamic Forms'. Dynamic Forms é necessário para que o template de geração de campo possa renderizar e atualizar dinamicamente os valores do campo.",
   },
   {
     id: 6,
